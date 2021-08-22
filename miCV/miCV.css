@@ -1,0 +1,207 @@
+header{
+    background-color: rgb(231, 206, 158);
+    text-align: center;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2em;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border: solid black 0.125em;
+    border-radius: 2em;
+    animation: ;
+    
+}
+
+body{
+    background-color: rgb(22, 39, 49);
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 2em;
+}
+
+.secundaria , .primaria ,.conocimientos{
+   background-color: ;
+}
+
+.educación, .conocimientos, .datos{
+    width: 33%;
+    margin: 2%;
+    font-size: 1.2em;
+    padding: 1% 2% 2% 2%;
+    border: solid rgb(231, 206, 158);
+    position: relative ;
+    
+}
+
+#link{
+    color: rgb(231, 206, 158);
+}
+
+#link:visited{
+    color: red;
+}
+
+.lista{
+    position: ;
+    left: 5%;
+}
+
+h3{
+    text-decoration: underline rgb(231, 206, 158);
+}
+
+h2{
+    border: inset rgb(231, 206, 158);
+    padding: 2%;
+    text-align: center;
+
+}
+
+@media (max-width:450px){
+    body{
+        font-size: 1em;
+    }
+    header{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        
+        flex-direction: column;
+    }
+    .educación, .conocimientos, .datos{
+        width: 100%;
+    }
+    ul{
+        position: relative;
+        right: 5%;
+    }
+
+}
+
+li::before{
+    content: "➥";
+}
+
+.lista{
+    list-style: none;
+}
+
+li{
+    margin: 10%;
+}
+
+/* @keyframes animación{
+    from{
+        background-color: rgb(22, 39, 49);
+
+    }
+    to{
+        background-color: black;
+        
+    }
+    
+
+} */
+.educación:hover, .conocimientos:hover, .datos:hover{
+    /* animation: animación 2s 1; */
+
+    background-color: black;
+    transition:  1s ;
+transform: scale(1.1) ;
+}
+
+#circulito{
+    border-top: solid red 0.5em;
+    border-right: solid yellow 0.5em;
+    border-bottom: solid green 0.5em;
+    border-left: solid skyblue 0.5em;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 0.5em;
+    height: 0.5em;
+    animation: circulitoDEG 1s infinite;
+    /* animation: circulitoX 5s infinite;
+    animation: circulitoY 5s infinite; */
+    padding: 0.5%;
+    border-radius: 50%;
+}
+
+@keyframes circulitoX{
+    /* 0%{
+
+    }
+    16.5%{
+        
+        transform: translatex(400%);
+    }
+    33%{
+        
+        transform: translatex(800%);
+    }
+    49.5%{
+        transform: translatex(800%);
+        
+
+    }
+
+    66%{
+        transform: translatex(400%);
+        
+    }
+   
+    
+    83%{
+        transform: translatex(0%);
+       
+
+    }
+    100%{
+        
+    } */
+}
+
+@keyframes circulitoY{
+    /* 0%{
+
+    }
+    50%{
+        transform: translateY(500%);
+    }
+    100%{
+        transform: translateY(0%);
+    } */
+}
+
+@keyframes circulitoDEG{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+    
+#imagenCV{
+    position: absolute;
+    transform: scale(0.2);
+    bottom: 18em;
+    left: -10%;
+    border: inset 1em rgb(231, 206, 158);
+}
+
+#imagenCV:hover{
+    transform: scale(0.3) translateY(2em);
+    transition: 1s;
+    
+}
+ 
+

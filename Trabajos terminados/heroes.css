@@ -1,0 +1,254 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.header1{
+    background-color: rgba(28, 209, 176, 1);
+    padding: 1px;
+}
+.header2{
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    display: flex;
+}
+.header3{
+    background-color: rgba(0, 29, 45, 1);
+    color: white;
+    display: flex;
+   flex-direction: row-reverse;
+   font-size: 2em;
+   
+   
+}
+
+nav{
+    display: flex;
+    
+    position: relative;
+    right: 50px;
+}
+
+#ingresar,#registrarse,#contacto{
+    margin: 15px;
+}
+h1{
+    font-size: 2em;
+}
+
+.padre{
+    display: flex;
+    position: relative;
+    margin: 200px;
+    bottom: 100px;
+    
+}
+
+.carta{
+    
+    height: 525px;
+    width: 280px;
+    margin: 100px;
+    
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    position: relative;
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: 0px 7px #888888;
+    border-radius: 2%;
+    border-width: 0px;
+    
+}
+
+.nombre_heroe{
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+
+.texto_carta{
+    position: relative;
+    top: 220px;
+}
+.botón{
+    position: relative;
+    top: 250px;
+    left: 90px;
+    background-color: rgba(0, 102, 159, 1);
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+
+#batman{
+    background-image: url(/Img/BATMAN.png);
+    background-repeat: no-repeat;
+}
+
+#harley{
+    background-image: url(/Img/harleyquinn.png);
+    background-repeat: no-repeat;
+}
+
+.foto_chiquita{
+    position: absolute;
+    right: 90px;
+    top: 120px;
+    border-radius: 50%;
+}
+
+.corazón{
+    
+}
+
+#botón_más{
+    height: 70px;
+    position: absolute;
+    top: 380px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    padding: 2px;
+}
+
+.añadir{
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    display: ;
+    border-radius: 2%;
+    width: 800px;
+    height: 700px;
+    position: relative;
+    left: 550px;
+    margin: 50px;
+}
+
+.titulo_añadir{
+    text-align: center;
+}
+
+
+    
+
+
+.nombre{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 130px;
+}
+
+#nombre{
+    height: 80px;
+    width: 250px;
+    border-radius: 5%;
+}
+.especie{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 258px;
+    position: absolute;
+    right: 130px;
+}
+
+#especie{
+    height: 120px;
+    width: 250px;
+}
+
+.fecha{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+
+#fecha{
+    height: 30px;
+    width: 250px;
+
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    right: 110px;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+}
+
+#descripción{
+    
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 285px;
+    right: 130px;
+    border-bottom: 1px solid white;
+    height: 180px;
+    width: 250px;
+}
+
+.poderes{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.volar,.superinteligencia,.rayosx,.billetera_gorda{
+    display: flex;
+    margin: 3px;
+    
+
+}
+
+#volar,#superinteligencia,#rayosx,#billetera_gorda{
+    
+}
+
+.radiobutton{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 135px;
+    right: 250px;
+
+}
+
+.boton_form {
+    position: absolute;
+    bottom: 15px;
+    margin-left: 225px;
+    /* margin-right: 250px; */
+    width: 350px;
+    height: 80px;
+    background-color: rgba(28, 209, 176, 1);
+    color: rgb(5, 5, 56);
+    font-size: 2em;
+}

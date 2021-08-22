@@ -1,0 +1,80 @@
+.spiderman:hover {
+    /* transform: scale(); */
+    /* transform: skew(); */
+    /* transform: rotate(); */
+    /* transform: translate(); */
+    /* transform-origin: top left; */
+}
+.caja1{
+    background-color;
+    animation: cambiarColor 5s infinite;
+    position: absolute;
+}
+.spiderman {
+    animation: moverSpider 5s 3;
+}
+@keyframes moverSpider{
+    0%{
+        opacity: 0%;
+        transform: translateY(-100px);
+    }
+
+    30%{
+        opacity: 50%;
+        transform: translateY(0) rotate(5deg);
+
+    }
+
+    50%{
+        transform: rotate(-5deg);
+
+    }
+
+    75%{
+        transform: rotate(5deg);
+
+    }
+
+    100%{
+        transform: translateY(-400px);
+        opacity: 100%;
+    }
+}
+
+@keyframes cambiarColor {
+    /* 0%{
+
+    }
+
+    30%{
+
+    }
+
+    50%{
+
+    }
+
+    75%{
+
+
+    }
+
+    100%{
+
+    } */
+
+    from{
+        background-color: teal;
+    }
+
+    to{
+        background-color:tomato;
+    }
+} 
+
+button:hover {
+    background-color: teal;
+    color: white;
+    transition: all 1.5s;
+    transform: scale(1.5);
+}

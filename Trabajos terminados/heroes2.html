@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="heroes.css">
+    
+
+    <title>Añadí tu propio héore</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        </style>
+    <header>
+        <section class="header1">
+            <article><p>20% de descuento en todos los productos</p></article>
+        </section>
+        <section  class="header2">
+            <a href="heroes.html"><img src="/Img/logo 1.png"></a>
+            
+            <article><h1>Súper Tienda</h1></article>
+        </section>
+        <section class="header3">
+            <nav>
+                <article id="contacto">Contacto</article>
+                <article id="registrarse">Registrarme</article>
+                <article id="ingresar">Ingresar</article>
+            </nav>
+           
+        </section>
+    </header>
+
+    <article class="añadir">
+        <section class="titulo_añadir">
+            <h2>Añadí tu Súper Héroe</h2>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+        </section>
+
+        <section>
+            <form action="/registro/" method="POST">  
+                
+                    <!-- <legend>Súper Héroe</legend> -->
+                   <section class="nombre">
+                       <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </section>
+                    
+    
+                    <section class="especie"><label for="especie">*Especie</label>
+                        <select id="especie" >
+                            <option value="Especie"></option>
+                            <option></option>
+                            <option></option>
+                            <option></option>
+    
+                        </select></section>
+                   
+                    <section class="fecha">
+                        <label for="fecha">Fecha</label>
+                         <input type="date" name="fecha" id="fecha">
+                    </section>
+                    
+                    <section class="avatar">
+                        <label for="foto">Agregar foto</label>
+                        <input type="file" accept=".jpg,.png" multiple name="avatar" >
+                    </section>
+                    
+                    <section class="descripcion">
+                       <textarea name="textarea" id="descripción" rows="18" cols="30">Descripción</textarea>
+                    </section>
+                    
+                   
+
+                    <article class="radiobutton">
+                        <p>Tipo de personaje</p>
+                        
+                            <section class="heroe/heroina">
+                                <label for="heroe/heroina">Héroe/Heroína</label>
+                                <input type="radio" name="medio" id="heroe/heroina" value="Héroe/Heroína">
+                            </section>
+                           <section class="villano/villana">
+                            <label for="villano/villana">Villano/Villana</label>
+                            <input type="radio" name="medio" id="villano/villana" value="Villano/Villana">
+                           </section>
+                    
+                    </article>
+
+             <article class="checkboxes">
+                 <section class="poderes">
+                                <p>Poderes</p>
+                  <section class="volar">
+                                    <input type="checkbox" name="volar" id="volar">
+                                    <label for="volar">Volar</label>
+                           
+                      </section>
+                            
+                     <section class="superinteligencia">
+                                    <input type="checkbox" name="superinteligencia" id="superinteligencia">
+                                    <label for="superinteligencia">Superinteligencia</label>
+                           
+                         </section>
+                            
+                          <section class="rayosx">
+                                    <input type="checkbox" name="rayosx" id="rayosx">
+                                    <label for="rayosx">Vista de rayos X</label>
+                           
+                          </section>
+                            
+                          <section class="billetera_gorda">
+                                    <input type="checkbox" name="billetera_gorda" id="billetera_gorda">
+                                    <label for="billetera_gorda">Billetera gorda</label>
+                            
+                           </section>
+                            
+                     </section>
+                            
+    
+             </article>
+                   
+                    
+                    
+             
+               
+            </form>
+        </section>
+        <button class="boton_form">Añadir</button>
+
+    </article>
+
+    
+    <footer>
+        <p>Todos los derechos reservados a Front End</p>
+    </footer>
+</body>
+</html>

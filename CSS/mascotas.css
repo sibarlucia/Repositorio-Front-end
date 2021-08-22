@@ -1,0 +1,40 @@
+#nav1 {
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    height: 30px;
+}
+
+#nav2 {
+    background-color: rgba(240, 168, 62, 1) ;
+    color: white;
+    display: flex;
+    position: sticky 
+    
+    
+}
+
+#article1 {
+    background-image: url(../Img/fondito.png); 
+    height: 420px;
+    
+}
+
+#img1, #img2, #img3{
+    padding: 10px
+    ;
+    display: inline-block;
+    border: black, 10px;
+}
+header {
+    height: 100px;
+    background-color: rgba(240, 168, 62, 1);
+}
+
+.padre {
+display: flex;
+}
+
+.section {
+    align-items: center;
+
+}
