@@ -30,13 +30,14 @@ body{
    background-color: ;
 }
 
-.educación, .conocimientos, .datos{
-    width: 33%;
+.main section{
+    width: 25%;
     margin: 2%;
     font-size: 1.2em;
     padding: 1% 2% 2% 2%;
     border: solid rgb(231, 206, 158);
     position: relative ;
+    /* background-color: black; */
     
 }
 
@@ -70,18 +71,36 @@ h2{
     }
     header{
         width: 100%;
+        /* margin: 25%; */
+        position: relative;
+       
     }
     .main{
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
         
         flex-direction: column;
     }
-    .educación, .conocimientos, .datos{
-        width: 100%;
+    .main ::selection{
+        width: 100vw;
     }
     ul{
         position: relative;
         right: 5%;
+    }
+    .main section{
+        width: 100vw;
+    }
+    #imagenCV{
+        margin: 10px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        
+    }
+    #circulito{
+        display: none;
     }
 
 }
@@ -110,7 +129,7 @@ li{
     
 
 } */
-.educación:hover, .conocimientos:hover, .datos:hover{
+.educación:hover, .conocimientos:hover, .datos:hover, .viajes:hover{
     /* animation: animación 2s 1; */
 
     background-color: black;
